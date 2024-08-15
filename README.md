@@ -37,6 +37,15 @@ The system architecture consists of various stages:
 ## Getting Started
 Follow these steps to set up the environment and start the project:
 
+start the Zookeeper service:
+``` bash
+sudo systemctl start zookeeper
+```
+ start the Kafka service:
+``` bash
+
+sudo systemctl start kafka
+```
 ### 1. Set Up Hadoop & Spark
 Ensure Hadoop 3.3.6 and Spark are installed and configured. The streaming setup includes a Spark job that writes data to HDFS using the following code:
 ```python
