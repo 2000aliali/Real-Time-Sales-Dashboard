@@ -12,7 +12,7 @@
 
 <a name="introduction"></a>
 ## Introduction
-This project is an end-to-end real-time eco project, focusing on data engineering and web application development. It involves real-time data ingestion, processing, and visualization using Hadoop, Spark, MySQL, and WebSockets, integrated into Django and Flask frameworks. The goal is to stream live data to HDFS, process it with Spark, and visualize it on a live dashboard with Django and Flask.
+This project is an end-to-end real-time eco project, focusing on data engineering and web application development. It involves real-time data ingestion, processing, and visualization using Hadoop, Spark, MySQL, and WebSockets, integrated with Flask frameworks. The goal is to stream live data to HDFS, process it with Spark, and visualize it on a live dashboard with Flask.
 
 <a name="SystemArchitecture"></a>
 ## System Architecture
