@@ -36,21 +36,24 @@ Follow the steps below to set up and run the project:
    cd Real-Time-Sales-Dashboard
 
 
-insatll the liberrary 
+2. **insatll the liberrary** 
 pip install -r requirements.txt
 
-start the Zookeeper service:
+3. **start the Zookeeper service**
 ``` bash
 sudo systemctl start zookeeper
 ```
- start the Kafka service:
+3.  **start the Kafka service**
 ``` bash
 
 sudo systemctl start kafka
 ```
-run the spark job "
+4. **run the spark job**
+   ``` bash
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0,mysql:mysql-connector-java:5.1.49 --files /home/ali-el-azzaouy/Documents/real_time_eco_project/realtime_data_processing/app.conf realtime_data_processing.py
 
 
-run our dasboard python app2.py 
+5. **run our dasboard **
+   ``` bash
+python app2.py 
 
