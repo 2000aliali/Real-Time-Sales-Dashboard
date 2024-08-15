@@ -49,11 +49,10 @@ sudo systemctl start zookeeper
 sudo systemctl start kafka
 ```
 4. **run the spark job**
-   ``` bash
+``` bash
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0,mysql:mysql-connector-java:5.1.49 --files /home/ali-el-azzaouy/Documents/real_time_eco_project/realtime_data_processing/app.conf realtime_data_processing.py
 
-
 5. **run our dasboard **
-   ``` bash
+``` bash
 python app2.py 
 
