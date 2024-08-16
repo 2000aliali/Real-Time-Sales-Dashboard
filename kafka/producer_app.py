@@ -46,11 +46,11 @@ if __name__ == "__main__":
     country_name_city_name_list = ["Sydney,Australia", "Florida,United States", "New York City,United States",
                                    "Paris,France", "Colombo,Sri Lanka", "Dhaka,Bangladesh", "Islamabad,Pakistan",
                                    "Beijing,China", "Rome,Italy", "Berlin,Germany", "Ottawa,Canada",
-                                   "London,United Kingdom", "Jerusalem,Israel", "Bangkok,Thailand",
+                                   "London,United Kingdom", "Bangkok,Thailand",
                                    "Chennai,India", "Bangalore,India", "Mumbai,India", "Pune,India",
                                    "New Delhi,Inida", "Hyderabad,India", "Kolkata,India", "Singapore,Singapore"]
 
-    ecommerce_website_name_list = ["www.datamaking.com", "www.amazon.com", "www.flipkart.com", "www.snapdeal.com", "www.ebay.com"]
+    ecommerce_website_name_list = ["www.amazon.com", "www.flipkart.com", "www.snapdeal.com", "www.ebay.com"]
 
     message_list = []
     message = None
