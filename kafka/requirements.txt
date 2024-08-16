@@ -1,4 +1,4 @@
-django
+Flask
 channels
 channels-redis
 mysqlclient
