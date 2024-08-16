@@ -12,6 +12,7 @@ The Real-Time Sales Dashboard project is an end-to-end data engineering and web 
 
 ## System Architecture
 The system architecture consists of the following components:
+![Screenshot](https://github.com/2000aliali/Real-Time-Sales-Dashboard/blob/main/Images/Capture%20d'%C3%A9cran%202024-08-16%20052425.png)
 1. **Data Streaming**: Real-time data is streamed from Kafka to Spark, where it is processed and partitioned by date and hour, then written to HDFS in Parquet format.
 2. **Web Framework**: Flask serves the front-end web application, displaying real-time sales data using dynamically updated charts. The data is retrieved from MySQL and sent to the front-end via WebSockets for real-time updates.
 3. **HDFS**: The processed data is stored in Hadoop's distributed file system, ensuring scalable and reliable data storage.
