@@ -58,3 +58,4 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0,mysql:m
 python app2.py 
 ```
 ## Results
+go throw this video to see the exction stepes and the results https://drive.google.com/file/d/1pjGh_pcp2nZVQHVbcpJFVDbyEoU1Y2NU/view?usp=sharing
